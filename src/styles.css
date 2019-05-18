@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'clash';
+    src: url('./assets/font/clash.ttf') format('truetype');
+}
+
+.title {
+	font-family: 'clash';
+}
+
+body {
+	background-image: url("./assets/img/bg/pattern.jpg") !important;
+	background-repeat: repeat;
+}
+
+main {
+	background-color: rgb(219, 232, 255);
+	border-radius: 10px;
+}

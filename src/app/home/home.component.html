@@ -1,0 +1,12 @@
+<div class="jumbotron">
+	<h1 class="display-4 title">Wiki Royale!</h1>
+	<p class="lead">Here you can find all data about the Clash Royale. Chest, Cards, Arenas or whereaver you want!</p>
+	<hr class="my-4">
+	<p>Start to search in the buttons below or on the menu bar on top of this site.</p>
+</div>
+
+<div class="row">
+	<div *ngFor="let data of buttons" class="col col-lg-3 col-md-4 col-sm-12">
+		<app-home-button [data]="data"></app-home-button>
+	</div>
+</div>
