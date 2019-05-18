@@ -8,15 +8,15 @@ import { ComponentsModule } from './components/components.module';
 
 @NgModule({
 	declarations: [
-    AppComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-	AppRoutingModule,
-	ComponentsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+		AppComponent,
+		HomeComponent
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		ComponentsModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
