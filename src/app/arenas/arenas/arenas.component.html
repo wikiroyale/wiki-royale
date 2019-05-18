@@ -1,3 +1,12 @@
-<p>
-  arenas works!
-</p>
+<div *ngIf="loading" class="d-flex justify-content-center">
+	<div class="spinner-border" role="status">
+		<span class="sr-only">Loading...</span>
+	</div>
+</div>
+
+<div *ngIf="!loading">
+	<h1 class="title">Arenas</h1>
+	<div *ngFor="let arena of arenas">
+		<app-arena-list-item [arena]="arena"></app-arena-list-item>
+	</div>
+</div>

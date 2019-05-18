@@ -7,6 +7,6 @@
 
 <div class="row">
 	<div *ngFor="let data of buttons" class="col col-lg-3 col-md-4 col-sm-12">
-		<app-home-button [data]="data"></app-home-button>
+		<app-home-button [routerLink]="data.route" [data]="data"></app-home-button>
 	</div>
 </div>

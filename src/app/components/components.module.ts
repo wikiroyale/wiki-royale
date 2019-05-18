@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeButtonComponent } from './home-button/home-button.component';
+import { ArenaListItemComponent } from './arena-list-item/arena-list-item.component';
 
 @NgModule({
-	declarations: [HomeButtonComponent],
+	declarations: [HomeButtonComponent, ArenaListItemComponent],
 	imports: [
 		CommonModule
 	],
 	exports: [
-		HomeButtonComponent
+		HomeButtonComponent,
+		ArenaListItemComponent
 	]
 })
 export class ComponentsModule { }

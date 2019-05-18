@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { ArenasComponent } from './arenas/arenas.component';
 import { ArenaComponent } from './arena/arena.component';
+import { HttpClientModule } from '@angular/common/http'
+import { ArenaService } from '../services/arena.service';
+import { ComponentsModule } from '../components/components.module';
 
 const routes: Routes = [
 	{ path: '', component: ArenasComponent },
@@ -13,7 +16,12 @@ const routes: Routes = [
 	declarations: [ArenasComponent, ArenaComponent],
 	imports: [
 		CommonModule,
-		RouterModule.forChild(routes)
+		RouterModule.forChild(routes),
+		HttpClientModule,
+		ComponentsModule
+	],
+	providers: [
+		ArenaService
 	]
 })
 export class ArenasModule { }
