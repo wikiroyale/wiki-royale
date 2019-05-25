@@ -5,7 +5,7 @@
 </div>
 
 <div *ngIf="!loading">
-	<h1 class="title">Arenas</h1>
+	<h1 class="title">{{ 'ARENAS.TITLE' | translate }}</h1>
 	<div *ngFor="let arena of arenas">
 		<app-arena-list-item [arena]="arena"></app-arena-list-item>
 	</div>

@@ -6,6 +6,8 @@ import { ArenaComponent } from './arena/arena.component';
 import { HttpClientModule } from '@angular/common/http'
 import { ArenaService } from '../services/arena.service';
 import { ComponentsModule } from '../components/components.module';
+import { AppTranslationModule } from '../app-translation/app-translation.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 const routes: Routes = [
 	{ path: '', component: ArenasComponent },
@@ -18,7 +20,8 @@ const routes: Routes = [
 		CommonModule,
 		RouterModule.forChild(routes),
 		HttpClientModule,
-		ComponentsModule
+		ComponentsModule,
+		TranslateModule
 	],
 	providers: [
 		ArenaService
