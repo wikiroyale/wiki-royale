@@ -4,6 +4,7 @@ install: npm i
 script: ng build --prod
 deploy:
   local_dir: dist/wiki-royale
+  repo: https://github.com/wikiroyale/wikiroyale.github.io.git
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_HASH  # Set in the settings page of your repository, as a secure variable
