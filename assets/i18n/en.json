@@ -1,0 +1,11 @@
+{
+	"GENERAL": {
+		"APPNAME": "Wiki Royale"
+	},
+	"NAV": {
+		"ARENAS": "Arenas"
+	},
+	"ARENAS": {
+		"TITLE": "List of arenas"
+	}
+}

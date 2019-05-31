@@ -1,0 +1,13 @@
+{
+	"GENERAL": {
+		"APPNAME": "Wiki Royale"
+	},
+	"NAV": {
+		"ARENAS": "Estádios"
+	},
+	"ARENAS": {
+		"TITLE": "Lista das arenas"
+	},
+	"Training Camp": "Campo de treinamento",
+	"Goblin Stadium": "Estádio goblin"
+}
