@@ -2,11 +2,3 @@ language: node_js
 node_js: node
 install: npm i
 script: ng build --prod
-deploy:
-  local_dir: dist/wiki-royale
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_HASH  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
