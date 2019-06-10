@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ArenaService } from 'src/app/services/arena.service';
-import { Arena } from 'src/app/models/arena';
-import { TranslateService } from '@ngx-translate/core';
+import { ArenaService } from './../../services/arena.service';
+import { Arena } from './../../models/arena';
 
 @Component({
 	selector: 'app-arenas',

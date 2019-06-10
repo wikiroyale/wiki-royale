@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 		HomeComponent
 	],
 	imports: [
-		BrowserModule,
+		BrowserModule.withServerTransition({ appId: 'serverApp' }),
 		AppRoutingModule,
 		ComponentsModule,
 		AppRootTranslationModule,

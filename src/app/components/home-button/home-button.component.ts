@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { HomeButtonData } from 'src/app/models/home-button';
+import { HomeButtonData } from './../../models/home-button';
 
 @Component({
 	selector: 'app-home-button',

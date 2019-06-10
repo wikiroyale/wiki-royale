@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Arena } from 'src/app/models/arena';
+import { Arena } from './../../models/arena';
 
 @Component({
 	selector: 'app-arena-list-item',
