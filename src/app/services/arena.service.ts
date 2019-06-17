@@ -14,7 +14,7 @@ export class ArenaService {
 	) { }
 
 	findAll(): Observable<Arena[]> {
-		let url = environment.api + this.context
+		let url = `https://acervo-astral-cors-proxy.herokuapp.com/` + environment.api + this.context
 		return this.httpClient.get<Arena[]>(url)
 	}
 }

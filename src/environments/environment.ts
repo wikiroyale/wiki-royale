@@ -4,7 +4,7 @@
 
 export const environment = {
 	production: false,
-	api: 'http://www.clashapi.xyz/api/'
+	api: 'http://www.clashapi.xyz/api/',
 };
 
 /*
